@@ -1,0 +1,40 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:d="http://xamarin.com/schemas/2014/forms/design"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+             mc:Ignorable="d"
+             x:Class="AAGNavi.Page2">
+    <ContentPage.Content>
+        <StackLayout>
+            <Label Text="" HorizontalOptions="CenterAndExpand" />
+
+
+            <Label FontAttributes="Bold" x:Name="lblheader" Text="Deine Position ist mir noch unbekannt" VerticalOptions="Center" HorizontalOptions="Center"/>
+            <Label FontAttributes="Bold" x:Name="lblLat" Text="" VerticalOptions="Center" HorizontalOptions="Center"/>
+            <Label FontAttributes="Bold" x:Name="lblLong" Text="" VerticalOptions="Center" HorizontalOptions="Center"/>
+            <Label FontAttributes="Bold" x:Name="lblAlt" Text="" VerticalOptions="Center" HorizontalOptions="Center"/>
+            <Label FontAttributes="Bold" Text="" VerticalOptions="Center" HorizontalOptions="Center"/>
+            <Label FontAttributes="Bold" Text="Ich hab keine Ahnung wo du bist " VerticalOptions="Center" HorizontalOptions="Center"/>            
+            <Label FontAttributes="Bold" x:Name="lblAnw0" Text="" VerticalOptions="Center" HorizontalOptions="Center"/>
+            <Label FontAttributes="Bold" FontSize="Medium"   x:Name="lblAnw1" Text="" VerticalOptions="Center" HorizontalOptions="Center"/>
+            <Label x:Name="lblAnw1b" Text="" VerticalOptions="Center" HorizontalOptions="Center"/>
+            <Label FontAttributes="Bold" FontSize="Medium" x:Name="lblAnw2" Text="" VerticalOptions="Center" HorizontalOptions="Center"/>
+            <Label x:Name="lblAnw2b" Text="" VerticalOptions="Center" HorizontalOptions="Center"/>
+            <Label FontAttributes="Bold" x:Name="lblAnw3" Text="" VerticalOptions="Center" HorizontalOptions="Center"/>
+            <Label FontAttributes="Bold" Text="" VerticalOptions="Center" HorizontalOptions="Center"/>
+            <Label FontAttributes="Bold" x:Name="lblAnw4" Text="" VerticalOptions="Center" HorizontalOptions="Center"/>
+            <Label FontAttributes="Bold" x:Name="lblAnw5" Text="" VerticalOptions="Center" HorizontalOptions="Center"/>
+            <Label FontAttributes="Bold" Text="" VerticalOptions="Center" HorizontalOptions="Center"/>
+            <Button x:Name="btnclick" Text="sag mir wo ich bin!" Clicked="btn_clicked"/>
+
+
+
+
+
+
+
+
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>
